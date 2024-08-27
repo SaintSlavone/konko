@@ -1,0 +1,32 @@
+.sofa_comp{
+    width: 290px;
+    height: 254px;
+    background-color: #EFEFEF;
+    padding: 10px 10px 12px 10px;
+    margin: 30px 0 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    &:hover{
+        background-color: #090909;
+        border: solid 1px #000;
+        transition: 0.3s;
+        .sofa_text{
+            color: #fff;
+        }
+    }
+    .sofa_text{
+        text-align: center;
+        margin: 16px 0 0 0;
+        .sofa_name{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 14px;
+            margin: 0 0 8px 0;
+        }
+        .sofa_desc{
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 14px;
+        }
+    }
+}

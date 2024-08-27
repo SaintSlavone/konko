@@ -1,0 +1,5 @@
+@charset "UTF-8";
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* автоматическое размещение в зависимости от ширины контейнера */
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+.header {
+  padding: 4px 0 0 0;
+  display: flex;
+}
+.header .logo {
+  width: 128px;
+  height: auto;
+  margin: 48px auto;
+  cursor: pointer;
+}
+.header .avatar {
+  width: 24px;
+  height: 24px;
+  margin: 67px 60px 0 0;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */
