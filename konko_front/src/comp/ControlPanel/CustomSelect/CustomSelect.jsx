@@ -1,8 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 import "./customSelect.css"
-export default function CustomSelect({components, title}) {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleDropdown = () => setIsOpen(!isOpen);
+export default function CustomSelect({components, title, isOpen, toggleDropdown, onSelect}) {
   return (
     <>
         <div className="custom_select">
@@ -12,7 +10,10 @@ export default function CustomSelect({components, title}) {
             </div>
             <div className={`dropdown_menu ${isOpen ? 'open' : ''}`}>
                 {components.map((component) => (
-                <div className="dropdown_item" key={component.id}>
+                <div className="dropdown_item"
+                 key={component.id}
+                 onClick={() => onSelect && onSelect(component.id)}
+                >
                     <div className="component_icon">
                         <div className="icon_placeholder"></div>
                     </div>

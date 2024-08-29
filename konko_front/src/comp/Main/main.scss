@@ -1,24 +1,26 @@
-.main{
-    .sofa_section{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    }
-    .sofa_start_btn{
-        border-radius: 5px;
-        background-color: #000;
-        color: #fff;
-        padding: 20px 300px 20px 300px;
-        font-size: 20px;
-        font-weight: 700;
-        margin: 50px auto;
-        display: flex;
-        cursor: auto;
-        opacity: 0.4;
-    }
-    .sofa_start_btn.active{
-        background-color: #000;
-        cursor: pointer;
-        opacity: 1;
-        transition: 0.3s;
+@media (max-width: 1920px){
+    .main{
+        .sofa_section{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        }
+        .sofa_start_btn{
+            border-radius: 5px;
+            background-color: #000;
+            color: #fff;
+            padding: 20px 300px 20px 300px;
+            font-size: 20px;
+            font-weight: 700;
+            margin: 40px auto;
+            display: flex;
+            cursor: auto;
+            opacity: 0.4;
+        }
+        .sofa_start_btn.active{
+            background-color: #000;
+            cursor: pointer;
+            opacity: 1;
+            transition: 0.3s;
+        }
     }
 }

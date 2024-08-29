@@ -36,20 +36,21 @@
   align-items: center;
   text-align: center;
   margin: 10px;
+  cursor: pointer;
 }
-.custom_select .dropdown_menu .component_icon .icon_placeholder {
+.custom_select .dropdown_menu .dropdown_item .component_icon .icon_placeholder {
   width: 50px;
   height: 50px;
   background-color: #ddd;
   margin-bottom: 5px;
 }
-.custom_select .dropdown_menu .component_details {
+.custom_select .dropdown_menu .dropdown_item .component_details {
   font-size: 12px;
 }
-.custom_select .dropdown_menu .component_details .component_id {
+.custom_select .dropdown_menu .dropdown_item .component_details .component_id {
   font-weight: bold;
 }
-.custom_select .dropdown_menu .component_details .component_dimensions {
+.custom_select .dropdown_menu .dropdown_item .component_details .component_dimensions {
   font-size: 10px;
   color: #777;
 }/*# sourceMappingURL=customSelect.css.map */
