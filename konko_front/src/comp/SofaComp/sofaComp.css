@@ -7,14 +7,6 @@
   box-sizing: border-box;
   cursor: pointer;
 }
-.sofa_comp:hover {
-  background-color: #090909;
-  border: solid 1px #000;
-  transition: 0.3s;
-}
-.sofa_comp:hover .sofa_text {
-  color: #fff;
-}
 .sofa_comp .sofa_text {
   text-align: center;
   margin: 16px 0 0 0;
@@ -29,4 +21,13 @@
   font-weight: 300;
   font-size: 13px;
   line-height: 14px;
+}
+
+.sofa_comp.selected {
+  background-color: #090909;
+  border: solid 1px #000;
+  transition: 0.3s;
+}
+.sofa_comp.selected .sofa_text {
+  color: #fff;
 }/*# sourceMappingURL=sofaComp.css.map */

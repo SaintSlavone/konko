@@ -1,0 +1,26 @@
+.conf_footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.conf_footer .footer_text_sec {
+  margin: 0 200px 0 200px;
+}
+.conf_footer .footer_text_sec .sofa_title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.conf_footer .footer_text_sec .sofa_brand {
+  margin: 10px 0 0 0;
+}
+.conf_footer .btn {
+  color: #fff;
+  padding: 10px 50px 10px 50px;
+  font-size: 15px;
+  background-color: #000;
+  border-radius: 2px;
+  margin: 10px;
+}/*# sourceMappingURL=confFooter.css.map */

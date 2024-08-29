@@ -1,0 +1,12 @@
+.conf_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    .sofa_model{
+        width: 200px; 
+        height: 200px; 
+        background-color: #646464;
+        border-radius: 15px;
+    }
+}

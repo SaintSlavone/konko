@@ -6,14 +6,6 @@
     margin: 30px 0 0 0;
     box-sizing: border-box;
     cursor: pointer;
-    &:hover{
-        background-color: #090909;
-        border: solid 1px #000;
-        transition: 0.3s;
-        .sofa_text{
-            color: #fff;
-        }
-    }
     .sofa_text{
         text-align: center;
         margin: 16px 0 0 0;
@@ -28,5 +20,13 @@
             font-size: 13px;
             line-height: 14px;
         }
+    }
+}
+.sofa_comp.selected{
+    background-color: #090909;
+    border: solid 1px #000;
+    transition: 0.3s;
+    .sofa_text{
+        color: #fff;
     }
 }

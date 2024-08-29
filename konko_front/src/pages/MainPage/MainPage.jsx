@@ -1,7 +1,7 @@
 import React from 'react';
 import "./mainPage.css"
-import Header from '../comp/Header/Header';
-import Main from '../comp/Main/Main';
+import Header from '../../comp/Header/Header';
+import Main from '../../comp/Main/Main';
 
 export default function MainPage(){
   return (
