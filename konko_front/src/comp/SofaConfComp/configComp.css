@@ -1,12 +1,99 @@
-.conf_wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+@media (max-width: 4096px) {
+  .conf_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .conf_wrapper .sofa_model {
+    width: 600px;
+    height: 600px;
+    background-color: #646464;
+    border-radius: 15px;
+  }
 }
-.conf_wrapper .sofa_model {
-  width: 200px;
-  height: 200px;
-  background-color: #646464;
-  border-radius: 15px;
+@media (max-width: 2560px) {
+  .conf_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .conf_wrapper .sofa_model {
+    width: 200px;
+    height: 200px;
+    background-color: #646464;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 1920px) {
+  .conf_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .conf_wrapper .sofa_model {
+    width: 200px;
+    height: 200px;
+    background-color: #646464;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 1366px) {
+  .conf_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .conf_wrapper .sofa_model {
+    width: 200px;
+    height: 200px;
+    background-color: #646464;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 1280px) {
+  .conf_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .conf_wrapper .sofa_model {
+    width: 200px;
+    height: 200px;
+    background-color: #646464;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .conf_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .conf_wrapper .sofa_model {
+    width: 200px;
+    height: 200px;
+    background-color: #646464;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 720px) {
+  .conf_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 80px 0 0 0;
+  }
+  .conf_wrapper .sofa_model {
+    width: 200px;
+    height: 200px;
+    background-color: #646464;
+    border-radius: 15px;
+  }
 }/*# sourceMappingURL=configComp.css.map */
